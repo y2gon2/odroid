@@ -22,7 +22,7 @@
 //     }
 // }
 
-use c2_mmap_gpio::{Device, PinId, Value};
+use c2_mmap_pio::{Device, PinId, Value};
 use std::error::Error;
 use std::thread::sleep;
 use std::time::Duration;
