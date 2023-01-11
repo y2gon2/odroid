@@ -12,7 +12,7 @@ use gpio::{GpioIn, GpioOut};
 use std::{thread, time};
 
 fn main() {
-    let mut gpio17 = gpio::sysfs::SysFsGpioOutput::open(24).unwrap();
+    let mut gpio17 = gpio::sysfs::SysFsGpioOutput::open(17).unwrap();
     let mut signal = false;
 
     loop {
