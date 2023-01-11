@@ -17,4 +17,5 @@ path = "src/bin/print.rs"
 linker = "arrch64-unknowlinux-gnu-gcc"
 
 [dependencies]
-rust_gpiozero = "0.2.1"
+gpio = "0.4.1"
+# rust_gpiozero = "0.2.1"
